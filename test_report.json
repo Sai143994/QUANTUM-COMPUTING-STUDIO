@@ -1,0 +1,251 @@
+{
+  "timestamp": 1792853930.0935824,
+  "url": "http://localhost:3000",
+  "availability": {
+    "status": "PASS",
+    "title": "Quantum Studio \u2014 Professional Quantum Simulator & Lab",
+    "load_time_sec": 1.22
+  },
+  "performance": {
+    "dns": 0,
+    "domReady": 1151,
+    "load": 1153,
+    "tcp": 0,
+    "ttfb": 11
+  },
+  "font_verification": {
+    "bodyFont": "\"Plus Jakarta Sans\", Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+    "codeFont": "\"JetBrains Mono\", \"Fira Code\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace",
+    "headingFont": "\"Space Grotesk\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  "multi_refresh_test": [
+    {
+      "cycle": 1,
+      "status": "PASS",
+      "reload_time_sec": 0.347,
+      "canvas_elements": 1
+    },
+    {
+      "cycle": 2,
+      "status": "PASS",
+      "reload_time_sec": 0.339,
+      "canvas_elements": 1
+    },
+    {
+      "cycle": 3,
+      "status": "PASS",
+      "reload_time_sec": 0.395,
+      "canvas_elements": 1
+    },
+    {
+      "cycle": 4,
+      "status": "PASS",
+      "reload_time_sec": 0.327,
+      "canvas_elements": 1
+    },
+    {
+      "cycle": 5,
+      "status": "PASS",
+      "reload_time_sec": 0.282,
+      "canvas_elements": 1
+    }
+  ],
+  "multi_tab_concurrency": [
+    {
+      "tab_index": 2,
+      "status": "PASS",
+      "canvases": 1
+    },
+    {
+      "tab_index": 3,
+      "status": "PASS",
+      "canvases": 1
+    }
+  ],
+  "tab_persistence_tests": [
+    {
+      "tab": "lab",
+      "label": "Quantum Lab",
+      "status": "PASS",
+      "hash": "#tab=lab",
+      "sessionTab": "lab"
+    },
+    {
+      "tab": "transpiler",
+      "label": "Transpiler",
+      "status": "PASS",
+      "hash": "#tab=transpiler",
+      "sessionTab": "transpiler"
+    },
+    {
+      "tab": "chemistry",
+      "label": "Chemistry",
+      "status": "PASS",
+      "hash": "#tab=chemistry",
+      "sessionTab": "chemistry"
+    },
+    {
+      "tab": "composer",
+      "label": "Composer",
+      "status": "PASS",
+      "hash": "#tab=composer",
+      "sessionTab": "composer"
+    }
+  ],
+  "workspace_tab_tests": [
+    {
+      "tab": "dashboard",
+      "name": "Dashboard",
+      "status": "PASS",
+      "canvases": 1,
+      "text_length": 540
+    },
+    {
+      "tab": "composer",
+      "name": "Composer",
+      "status": "PASS",
+      "canvases": 5,
+      "text_length": 1845
+    },
+    {
+      "tab": "algorithms",
+      "name": "Algorithms",
+      "status": "PASS",
+      "canvases": 0,
+      "text_length": 3930
+    },
+    {
+      "tab": "transpiler",
+      "name": "QPC Transpiler",
+      "status": "PASS",
+      "canvases": 1,
+      "text_length": 2223
+    },
+    {
+      "tab": "chemistry",
+      "name": "VQE Chemistry",
+      "status": "PASS",
+      "canvases": 2,
+      "text_length": 2141
+    },
+    {
+      "tab": "entanglement",
+      "name": "Entanglement",
+      "status": "PASS",
+      "canvases": 1,
+      "text_length": 1556
+    },
+    {
+      "tab": "cryptography",
+      "name": "QKD Crypto",
+      "status": "PASS",
+      "canvases": 0,
+      "text_length": 2236
+    },
+    {
+      "tab": "qml",
+      "name": "QML Studio",
+      "status": "PASS",
+      "canvases": 0,
+      "text_length": 1363
+    },
+    {
+      "tab": "qec",
+      "name": "QEC Logical",
+      "status": "PASS",
+      "canvases": 0,
+      "text_length": 1806
+    },
+    {
+      "tab": "pulse",
+      "name": "Pulse AWG",
+      "status": "PASS",
+      "canvases": 0,
+      "text_length": 1236
+    },
+    {
+      "tab": "lab",
+      "name": "Quantum Lab",
+      "status": "PASS",
+      "canvases": 5,
+      "text_length": 7435
+    },
+    {
+      "tab": "hardware",
+      "name": "Hardware",
+      "status": "PASS",
+      "canvases": 0,
+      "text_length": 2782
+    },
+    {
+      "tab": "outlook",
+      "name": "Global Outlook",
+      "status": "PASS",
+      "canvases": 0,
+      "text_length": 3133
+    },
+    {
+      "tab": "techmap",
+      "name": "3D Tech Matrix",
+      "status": "PASS",
+      "canvases": 1,
+      "text_length": 3063
+    }
+  ],
+  "interactive_controls": [
+    {
+      "control": "3D Visual Twin",
+      "status": "PASS"
+    },
+    {
+      "control": "Quantum Engine Flow",
+      "status": "PASS"
+    },
+    {
+      "control": "Physics Inspector",
+      "status": "PASS"
+    },
+    {
+      "control": "Top Visual",
+      "status": "PASS"
+    },
+    {
+      "control": "QPU 15mK",
+      "status": "PASS"
+    },
+    {
+      "control": "All 3D",
+      "status": "PASS"
+    },
+    {
+      "control": "Thermal FLIR",
+      "status": "PASS"
+    },
+    {
+      "control": "RF X-Ray",
+      "status": "PASS"
+    },
+    {
+      "control": "Gold Plate",
+      "status": "PASS"
+    },
+    {
+      "control": "Cutaway Shield",
+      "status": "PASS"
+    },
+    {
+      "control": "Sealed Can",
+      "status": "PASS"
+    },
+    {
+      "control": "Bare Core",
+      "status": "PASS"
+    }
+  ],
+  "console_errors": [],
+  "summary": {
+    "passed": 35,
+    "failed": 0,
+    "warnings": 0
+  }
+}

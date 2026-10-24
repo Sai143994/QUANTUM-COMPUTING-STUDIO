@@ -1,0 +1,13 @@
+# Quantum Studio Python Package & Test Suite Requirements
+# ==============================================================
+
+# Core Testing & Automation (Selenium WebDriver):
+selenium>=4.15.0
+
+# Optional Scientific & Hardware Transpilation:
+# numpy>=1.22.0
+# scipy>=1.8.0
+# qiskit>=1.0.0
+# qiskit-aer>=0.14.0
+# cirq>=1.3.0
+

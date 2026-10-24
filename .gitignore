@@ -1,0 +1,24 @@
+# Dependencies & Build Artefacts
+node_modules/
+dist/
+build/
+coverage/
+
+# Python Cache & Package Info
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# System & Environment Files
+.DS_Store
+Thumbs.db
+*.log
+.env*
+!.env.example
+
+# Temporary / Extraction Artifacts
+New folder/
+New folder (2)/
+

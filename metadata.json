@@ -1,0 +1,6 @@
+{
+  "name": "Quantum Studio — Professional Quantum Simulator & Lab",
+  "description": "Professional quantum circuit composer, statevector simulation engine, and interactive quantum computing algorithms laboratory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
