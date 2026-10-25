@@ -45,29 +45,29 @@ Quantum Studio bridges the gap between theoretical quantum mechanics and physica
 ```mermaid
 graph TD
     subgraph UI ["Modern Presentation Layer (React 19 + Tailwind v4)"]
-        Nav[Persistent URL Hash Routing & State Cache]
-        Theme[Enterprise Typography: Space Grotesk / Jakarta / JetBrains Mono]
-        HUD[Frosted Glass Glassmorphism & Framer Motion Controls]
+        Nav["Persistent URL Hash Routing & State Cache"]
+        Theme["Enterprise Typography: Space Grotesk / Jakarta / JetBrains Mono"]
+        HUD["Frosted Glass Glassmorphism & Framer Motion Controls"]
     end
 
     subgraph GraphicsEngine ["3D WebGL & Physics Rendering"]
-        Three[Three.js / React Three Fiber Canvas]
-        Cryo[Interactive Dilution Refrigerator 3D Mesh]
-        Modes[Visual Modes: Thermal FLIR | RF X-Ray | Cutaway Shield | Core]
-        Bloch[Dynamic 3D Bloch Spheres & Density Matrices]
+        Three["Three.js / React Three Fiber Canvas"]
+        Cryo["Interactive Dilution Refrigerator 3D Mesh"]
+        Modes["Visual Modes: Thermal FLIR · RF X-Ray · Cutaway Shield · Core"]
+        Bloch["Dynamic 3D Bloch Spheres & Density Matrices"]
     end
 
     subgraph QuantumCore ["In-Browser Quantum Execution Engine"]
-        StateVec[Complex Linear Algebra Statevector Engine]
-        Gates[Unitary Gate Operators: H, X, Y, Z, S, T, Rx, Ry, Rz, CNOT, CZ, SWAP, Toffoli]
-        Transpile[Multi-Target Transpiler: OpenQASM 3.0 / Qiskit / Cirq]
-        Algorithms[Quantum Algo Benchmarks: Grover / Shor / VQE / QKD / QML]
+        StateVec["Complex Linear Algebra Statevector Engine"]
+        Gates["Unitary Gate Operators: H, X, Y, Z, S, T, Rx, Ry, Rz, CNOT, CZ, SWAP, Toffoli"]
+        Transpile["Multi-Target Transpiler: OpenQASM 3.0 / Qiskit / Cirq"]
+        Algorithms["Quantum Algo Benchmarks: Grover / Shor / VQE / QKD / QML"]
     end
 
     subgraph PythonCore ["Standalone Pure Python Engine (quantum_studio/)"]
-        PyCLI[cli.py / main.py CLI Runner]
-        PyState[Pure Python QuantumState & Complex Numbers]
-        PySurface[Rotated Surface Code Distance-3 Simulator]
+        PyCLI["cli.py / main.py CLI Runner"]
+        PyState["Pure Python QuantumState & Complex Numbers"]
+        PySurface["Rotated Surface Code Distance-3 Simulator"]
     end
 
     UI --> QuantumCore
